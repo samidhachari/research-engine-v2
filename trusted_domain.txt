@@ -1,0 +1,163 @@
+TRUSTED_DOMAINS = {
+
+    # =================================
+    # GOVERNMENT & REGULATORY
+    # =================================
+
+    ".gov": 10,
+    "whitehouse.gov": 10,
+    "nist.gov": 10,
+    "nsf.gov": 10,
+    "nih.gov": 10,
+    "nasa.gov": 10,
+    "darpa.mil": 10,
+    "sec.gov": 10,
+    "fda.gov": 10,
+    "epa.gov": 10,
+    "energy.gov": 10,
+    "treasury.gov": 10,
+    "census.gov": 10,
+    "europa.eu": 10,
+    "ec.europa.eu": 10,
+    "gov.uk": 10,
+    "who.int": 10,
+    "oecd.org": 10,
+    "imf.org": 10,
+    "worldbank.org": 10,
+    "un.org": 10,
+    "weforum.org": 8,
+
+    # =================================
+    # UNIVERSITIES
+    # =================================
+
+    ".edu": 9,
+    "mit.edu": 10,
+    "stanford.edu": 10,
+    "harvard.edu": 10,
+    "berkeley.edu": 10,
+    "cmu.edu": 10,
+    "ox.ac.uk": 10,
+    "cam.ac.uk": 10,
+    "princeton.edu": 10,
+    "caltech.edu": 10,
+    "cornell.edu": 10,
+    "columbia.edu": 10,
+    "uchicago.edu": 10,
+    "yale.edu": 10,
+    "imperial.ac.uk": 10,
+    "ethz.ch": 10,
+    "gatech.edu": 9,
+    "duke.edu": 9,
+    "ucla.edu": 9,
+    "upenn.edu": 9,
+
+    # =================================
+    # RESEARCH PAPERS / JOURNALS
+    # =================================
+
+    "nature.com": 10,
+    "science.org": 10,
+    "cell.com": 10,
+    "nejm.org": 10,
+    "thelancet.com": 10,
+    "ieee.org": 10,
+    "acm.org": 10,
+    "springer.com": 9,
+    "springernature.com": 9,
+    "sciencedirect.com": 9,
+    "arxiv.org": 9,
+    "semanticscholar.org": 9,
+    "jstor.org": 9,
+    "frontiersin.org": 8,
+    "wiley.com": 8,
+    "tandfonline.com": 8,
+    "mdpi.com": 7,
+    "researchgate.net": 7,
+    "ssrn.com": 8,
+    "pubmed.ncbi.nlm.nih.gov": 10,
+    "ncbi.nlm.nih.gov": 10,
+    "plos.org": 8,
+
+    # =================================
+    # AI / TECH RESEARCH LABS
+    # =================================
+
+    "openai.com": 9,
+    "deepmind.google": 9,
+    "anthropic.com": 9,
+    "ai.meta.com": 9,
+    "research.google": 9,
+    "microsoft.com/research": 9,
+    "ibm.com/research": 9,
+    "nvidia.com/research": 9,
+    "allenai.org": 9,
+    "huggingface.co": 8,
+
+    # =================================
+    # MARKET RESEARCH
+    # =================================
+
+    "gartner.com": 9,
+    "mckinsey.com": 9,
+    "bain.com": 9,
+    "bcg.com": 9,
+    "forrester.com": 9,
+    "statista.com": 8,
+    "pitchbook.com": 8,
+    "cbinsights.com": 8,
+    "goldmansachs.com": 8,
+    "morganstanley.com": 8,
+    "bloomberg.com": 8,
+
+    # =================================
+    # BUSINESS / FINANCE
+    # =================================
+
+    "wsj.com": 8,
+    "ft.com": 8,
+    "economist.com": 8,
+    "forbes.com": 7,
+    "fortune.com": 7,
+    "hbr.org": 8,
+    "marketwatch.com": 7,
+    "ycombinator.com": 8,
+
+    # =================================
+    # NEWS
+    # =================================
+
+    "reuters.com": 9,
+    "apnews.com": 9,
+    "bbc.com": 8,
+    "nytimes.com": 8,
+    "washingtonpost.com": 8,
+    "theguardian.com": 8,
+    "cnbc.com": 8,
+    "techcrunch.com": 7,
+    "theverge.com": 7,
+
+    # =================================
+    # PATENTS / TECHNICAL DOCS
+    # =================================
+
+    "patents.google.com": 9,
+    "uspto.gov": 10,
+    "wipo.int": 10,
+    "developer.nvidia.com": 8,
+    "developer.apple.com": 8,
+    "learn.microsoft.com": 8,
+    "aws.amazon.com": 8,
+    "cloud.google.com": 8,
+    "docs.python.org": 8,
+    "kubernetes.io": 8,
+
+    # =================================
+    # MEDICAL / HEALTH
+    # =================================
+
+    "mayoclinic.org": 9,
+    "clevelandclinic.org": 9,
+    "webmd.com": 6,
+    "cdc.gov": 10,
+}
