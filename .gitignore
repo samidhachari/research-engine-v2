@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual Env
+venv/
+.env
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# FAISS / embeddings
+vector_db/
+faiss_index/
+
+# Temp files
+tmp/
+cache/
+
+# Secrets
+.env
+secrets.toml
+
+# PDFs uploads
+uploads/
+
+# Model cache
+.huggingface/
